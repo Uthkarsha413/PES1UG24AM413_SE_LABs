@@ -1,0 +1,15 @@
+Pylint report — BEFORE (manual review notes, not tool-generated output)
+Target: original flight_reservation_system.py
+
+Potential findings to verify:
+- Missing module and function docstrings.
+- Dangerous mutable default argument: baggage_tags=[].
+- Broad exception handling: bare except.
+- Use of eval().
+- Unused import(s) and local variable(s).
+- Function names do not follow snake_case.
+- File handling without a context manager or explicit encoding.
+- Global statement / hard-coded token / maintainability concerns.
+
+NOTE: Pylint was not installed/run in the preparation environment. No numeric score is claimed.
+Command: pylint flight_reservation_system_original.py

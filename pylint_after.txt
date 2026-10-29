@@ -1,0 +1,5 @@
+Pylint report — AFTER
+Tool status: NOT RUN in preparation environment (Pylint is not installed and package-index access was unavailable).
+The corrected file includes docstrings, snake_case names, input checks, safer APIs, and a main guard, but the actual Pylint score must be obtained locally.
+Command: pylint flight_reservation_system.py
+Do not treat this note as a verified score.
