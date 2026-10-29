@@ -1,0 +1,5 @@
+Flake8 report — AFTER
+Tool status: NOT RUN in preparation environment (Flake8 is not installed and package-index access was unavailable).
+The corrected file has been reformatted, but a clean result must be confirmed by running Flake8 locally.
+Command: flake8 flight_reservation_system.py
+Do not treat this note as a clean Flake8 scan.
