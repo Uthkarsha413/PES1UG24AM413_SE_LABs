@@ -1,5 +1,0 @@
-Bandit report — AFTER
-Tool status: NOT RUN in preparation environment (Bandit is not installed and package-index access was unavailable).
-The corrected code removes eval(), removes os.system(), removes the hard-coded token, uses secrets for PIN generation, and uses SHA-256.
-Run to obtain authentic output: bandit -r flight_reservation_system.py
-Do not treat this note as a clean Bandit scan.
